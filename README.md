@@ -33,7 +33,9 @@ Followed the MVC paradigm in its architectural structure, using Handlebars.js as
 
 The following animation demonstrates the application functionality:
 
-![Tech Blog with Login](./assets/images/page.gif) 
+Tech Blog with Login: <br>
+<img src="./assets/images/page.gif" width="200" />
+
 
 ## Links
 

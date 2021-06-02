@@ -72,7 +72,7 @@ header h1 {
 
   /* width:  16rem; 260px; */
   /* height: 3rem; 50px; */
-  box-shadow: 5px 5px var(--shadow1);
+  box-shadow: var(--shadow1);
   border-radius:10px 10px 10px 10px;
 }
 

@@ -1,0 +1,18 @@
+<section class="container">
+  <h3 class="post-title">{{post.title}}</h3>
+  {{!-- <h4>Opening Hour: {{format_time post.created_date}}</h4>
+  <h4>Closing Hour: {{format_time post.updated_date}}</h4> --}}
+  <!-- If the user is logged in, render the post content -->
+  {{#if loggedIn}}
+  <section class="flex-row justify-center">
+    {{!-- {{#each post.paintings as |painting|}}
+    {{> painting-details}}
+    {{/each}} --}}
+    <p class="post-content">{{post.content}}</p>
+
+  </section>
+</section>
+<!-- Otherwise, provide a link to login -->
+{{else}}
+<a href="/login">You must login first to view the post content</a>
+{{/if}}
